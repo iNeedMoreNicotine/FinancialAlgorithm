@@ -51,30 +51,27 @@ are applied in financial engineering to handle path-dependent payoffs.
 
 ---
 
-## 📂 Repository Structure
-```plaintext
+## Repository Structure
+```bash
 FinancialAlgorithm/
-│── README.md
-│── main.py                 # Demo entry point
+│── README.md              # Project documentation
+│── main.py                # Demo entry point
+│── requirements.txt       # Python dependencies
 │
-├── docs/                   # Documentation
-│   └── FinAlgoGUI.pdf      # GUI explanation
+├── docs/                  # Documentation
+│   └── FinAlgoGUI.pdf     # GUI explanation
 │
-├── src/                    # Core implementations
-│   ├── vanilla_option/
-│   ├── rainbow_option/
-│   ├── lookback_option/
-│   ├── average_option/
-│   └── implied_volatility/
-│
-└── gui/                    # Visual Studio C++ GUI project
-    ├── FinancialAlgorithm_Project.sln
-    └── FinancialAlgorithm_Project/
+└── src/                   # Core implementations
+    ├── vanilla_option/
+    ├── rainbow_option/
+    ├── lookback_option/
+    ├── average_option/
+    └── implied_volatility/
 ```
 
 ---
 
-## ⚡ Quick Start
+## Quick Start
 ### Run demo
 To showcase multiple option pricing methods:
 ```bash
@@ -85,7 +82,7 @@ with results from different algorithms, followed by **financial interpretations*
 
 ---
 
-## 📖 Why This Matters
+## Why This Matters
 This project illustrates:
 - **Algorithm design & validation**: closed-form vs. simulation vs. tree-based  
 - **Cross-language implementation**: Python prototyping vs. C++ performance  
@@ -94,14 +91,14 @@ This project illustrates:
 
 ---
 
-## 🔮 Future Work
+## Future Work
 - GPU acceleration (CUDA) for Monte Carlo simulations  
 - Integration with financial data APIs  
 - Packaging as a Python library (`pip install financialalgorithm`)  
 
 ---
 
-## 📌 Author
+## Author
 Developed by **Po-Yen Chen**  
 M.S. in Finance, National Taiwan University  
 B.A. in Economics, National Chengchi University  
