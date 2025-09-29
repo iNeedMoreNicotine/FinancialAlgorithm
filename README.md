@@ -21,13 +21,12 @@ This repository not only demonstrates **algorithm design & numerical methods**, 
 - **Cross-language support**:
   - Python: rapid prototyping, visualization
   - C++: high-performance implementation
-- **GUI project** (C++ / Visual Studio) for interactive pricing  
+- **GUI project** (C++ / Visual Studio) for interactive pricing
   - Self-developed by the author  
   - Explanation document is provided in [`/docs/FinAlgoGUI.pdf`](./docs/FinAlgoGUI.pdf)  
-  - The GUI source code (C++ / Visual Studio) is included in this repository under `/gui/`.  
-    Due to file size limitations, compiled binaries (`.exe`, `.pdb`, `/x64/Debug/`) are **not included in the repository**.  
   - 👉 Pre-compiled executable is available via Google Drive:  
     [Download GUI Executable](https://drive.google.com/drive/folders/19rN5I7lyPibIerePZmzA9pS2DChA1oQm?usp=sharing)
+
 ---
 
 ## Academic Background
